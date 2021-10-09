@@ -1,4 +1,4 @@
-## React Course 
+## React - Beginners to Advanced 
 
 The following documentation is based on my [React - Beginners to Advanced](=) tutorial we’re going to cover the basics and advanced topics in React. <br> <br>
 •	Author: [Code With Dary](https://github.com/codewithdary) <br>
