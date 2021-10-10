@@ -18,7 +18,6 @@ There is no clear-cut answer on how difficult React is. Apart from the fact that
 ### Reacts future
 Like I’ve mentioned before, React is a fairly new programming language. Just like me, you have probably Googled around if React is the future. React has reached a place where the core functionality is stable, but even that can change over time.
 
- 
 ## 2. Setting up our environment & Creating our first App
 
 Before we can create a React project, we need to make sure that we set up our development environment correctly. In order to run React projects locally, you need to install Node.js and NPM since Reacts frontend is connected to a node backend.
