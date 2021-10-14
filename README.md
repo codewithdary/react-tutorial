@@ -1,11 +1,17 @@
+## Course Overview
+
+| **Episode**   | **Subject** |
+| ------------- |-------------|
+| Ep. 1         | Introduction to React |
+
 ## 1. Introduction to React
 
-Do you want to build user interfaces for large scaled application where data will change over time? React is a super popular JavaScript user interface library that helps you to create user interfaces. Is haven’t been out for that long, since it’s been released in 2013 by Facebook.
+Do you want to build user interfaces for large scaled application where data will change over time? React is a super popular JavaScript user interface library that helps you to create user interfaces. React hasn’t been out for that long, since it’s been released in 2013 by Facebook.
 
-Personally, I think the fact that you can bundle up parts of a website into components a big advantage of React. This allows you to create small blocks for your application, which you can use in your code to reduce repetition in your code.
+Personally, I think the fact that you can bundle up parts of a website into components is a big advantage of React. Components allows you to create small blocks for your application, which you can use in your code to reduce repetition.
 
 ### Will React replace JavaScript?
-Wasn’t PHP dead 20 years ago? Keep in mind that React does not have its own templating system, but it uses the full power of JavaScript to build user interfaces. There are obviously some differences with plain JavaScript, since Reacts user interface is a function of application state. This means that you don’t need to store the state of your application in the DOM, but the flow is reversed, since a state can live in a store and all components have to do, is re-render every time the state updates.
+Wasn’t PHP dead 20 years ago? Keep in mind that React does not have its own templating system, but it uses the full power of JavaScript to build user interfaces. There are obviously some differences between React and JavaScript, since Reacts user interface is a function of application state. Meaning that you don’t need to store the state of your application in the DOM, but the flow is reversed, since a state can live in a store and all components have to do, is re-render every time the state updates.
 
 ### What will we be learning?
 We’re going to start off by learning the fundamentals of React. Think about topics like components, how to handle user interaction, how to manage forms, and how to interact with servers.
@@ -16,7 +22,7 @@ Once we’ve been over the fundamentals, we will be taking it a step further and
 There is no clear-cut answer on how difficult React is. Apart from the fact that every developer learns at his own pace, it is very important to have a good understanding of coding before you dive into learning React.
 
 ### Reacts future
-Like I’ve mentioned before, React is a fairly new programming language. Just like me, you have probably Googled around if React is the future. React has reached a place where the core functionality is stable, but even that can change over time.
+Like I’ve mentioned before, React is a fairly new programming language. Just like me, you have probably Googled around if React is the future, or even has a future. React has reached a place where the core functionality is stable, but even that can change over time.
 
 ## 2. Setting up our environment & Creating our first App
 
