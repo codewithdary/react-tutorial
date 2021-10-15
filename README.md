@@ -3,6 +3,7 @@
 | **Episode**   | **Subject** |
 | ------------- |-------------|
 | Ep. 1         | Introduction to React |
+| Ep. 2         | Setting up our environment & Creating our first App |
 
 ## 1. Introduction to React
 
@@ -26,49 +27,48 @@ Like I’ve mentioned before, React is a fairly new programming language. Just l
 
 ## 2. Setting up our environment & Creating our first App
 
-Before we can create a React project, we need to make sure that we set up our development environment correctly. In order to run React projects locally, you need to install Node.js and NPM since Reacts frontend is connected to a node backend.
+Before we can create a React project, we need to make sure that we set up our development environment correctly. In order to run React projects locally, you need to install ```Node.js``` and ```NPM``` since Reacts frontend is connected to a node backend.
 
 Whether you are using a Windows, Mac or Linux operating system, the simplest way of installing Node.js is [right here](https://nodejs.org/en/) from their official website.
 
 Once you’ve setup Node correctly, you will be able to use something which is called ```npm```. ```npm``` stands for Node Package Manager and it is installed as part of Node.js.
 
-Open an CLI, and perform the following command to see if node has been setup correctly.
+Open an CLI, and perform the following command to see if node has been setup correctly on your device.
 ```
 npm -v
 ```
 
-IF you have installed Node.js correctly, you will see a version number printed out. In my case, I’m using NPM version 7.13.10.
+If you have installed Node.js correctly, you will see a version number printed out. In my case, I’m using NPM version ```7.13.10```.
 
 ### What is Node?
-You can see Node as JavaScript, but without the browser. It has a runtime environment that allows you to build full-stack JavaScript applications. You actually don’t need Node to use React, but you do need to use the Node Package Manager(npm) to install dependencies.
+You can see Node as JavaScript, but without the browser. It has a runtime environment that allows you to build full-stack JavaScript applications. You actually don’t need Node to use React, but you do need to use the ```Node Package Manager(npm)``` to install dependencies.
 
 ### Creating our first application
-React has a cool command which allows you to create a new single page application in React through ```npx```.
+React has a cool command which allows you to create a new single page application through ```npx```.
 ```
 npx create-react-app my-react-app
 ```
 
-This will create a new react project, which will take 2-3 minutes because its pulling in all necessary dependencies. Once your dependencies have been pulled in, you will see that the project has been created successfully, and it also shows us a couple commands that we can perform.
+This will create a new react project with a folder/project name of ```my-react-app```. This will take 2-3 minutes because its pulling in all necessary dependencies. Once your dependencies have been pulled in, you will see that the project has been created successfully, and it also shows us a couple commands that we can perform.
 
-Whenever you want to perform a command that is related to your React project, you need to make sure that you are in the root of your project directory.
+Whenever you want to perform a command that is related to your React project, you need to make sure that you are in the root of your project directory. When you create a new project, you won't be inside the project directory but you need to change directories first.
 ```
 cd my-react-app
 ```
 
-If you open ```my-react-app``` inside a code editor, you’ll be seeing come folders and file that you might not have seen before, let’s go over them really quick.
-
+If you open ```my-react-app``` inside a code editor, you will be seeing some folders and file that you might not have seen before, let’s go over them really quick.
 
 #### node_modules
 The node_modules folder consists of dependencies that have been pulled in through ```npm```.
 
 #### public
-Inside the public folder, you’ll be storing assets that you need inside your project. Think about images, Google fonts etc.
+Inside the public folder, you should be storing assets that you need inside your project. Think about images, Google fonts etc.
 
 #### src
 The src folder is the most important folder in your project directory because it contains all React related source code of your project. The real magic happens right here, because we will be spending most of our time right here.
 
 #### .gitignore
-For Git users, this file will make sense because it allows you to exclude files and folders when you push your code to GitHub.
+For Git users, this file will make sense because it allows you to exclude files and folders when you push your code to GitHub. It's not a file that you need for React.
 
 #### package-lock.json
 The package-lock.json file stores the exact version number of the dependencies from the package.json file.
@@ -77,10 +77,10 @@ The package-lock.json file stores the exact version number of the dependencies f
 The package.json file manages your application dependencies that are included in the node_modules folder. There’s also a section where you can add scripts that you can run within your application.
 
 #### README.me
-The README.me file is a markdown file that includes a lot of helpful tips and links that React provided for us.
+The README.me file is a markdown file that includes a lot of helpful tips and links that React provided for us. It is also not a file that you need to run your React project.
 
 ### Open project locally
-Like I’ve mentioned before, the package.json file has a couple scripts that we can run from the CLI. With the ```start``` command, you’ll be able to open your project through your localhost.
+Like I’ve mentioned before, the package.json file has a couple scripts that we can run from the CLI. With the ```start``` command, you will be able to open your project through your localhost.
 ```ruby
   "scripts": {
     "start": "react-scripts start",
@@ -98,12 +98,12 @@ npm run start
 ### Application flow
 When you open ```http://localhost:3000``` in the browser, you will see a beautiful landing screen that React has created for us, but where does it come from?
 
-If you open the ```public``` folder, you will find an index.html file. Inside the index.html file, you will see that a div with an id of ```root``` is injected.
+Inside the ```public``` folder, you will find an index.html file where you will see that a div with an id of ```root``` is injected.
 ```ruby
 <div id="root"></div>
 ```
 
-The root id will be used inside the ```src/index.js``` file, where all React components are being used. First, The React DOM is going to render a new App components, which will be the App.js file from the src folder. Right here, you’ll also see that an element is being grabbed by Id, with the name of ```root```!
+The root id will be used inside the ```src/index.js``` file, where all React components are being used. First, The React DOM is going to render a new App component, which will be the App.js file from the ```src``` folder. Right here, you will also see that an element is being grabbed based on an id, with the name of ```root```!
 ```ruby
 ReactDOM.render(
   <React.StrictMode>
