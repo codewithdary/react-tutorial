@@ -4,6 +4,7 @@
 | ------------- |-------------|
 | Ep. 1         | Introduction to React |
 | Ep. 2         | Setting up our environment & Creating our first App |
+| Ep. 3         | How to setup VS Code for React projects |
 
 ## 1. Introduction to React
 
@@ -115,3 +116,113 @@ ReactDOM.render(
 ```
 
 If we open the ```src/App.js``` file, you will see the landing screen that we’ve got on our localhost. 
+
+## 3. How to setup VS Code for React projects
+
+I will be using [Visual Studio Code](https://code.visualstudio.com/) for this video series because it’s free, super easy to add extensions to and its one of the most used code editors.
+
+When you want to install an extension, you need to access the extensions market, this can be done in the left side bar, where you need to click on the 4 squares.
+
+When working on React projects, I recommend installing the following extensions: <br>
+•	[Community MaterialTheme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme) <br>
+•	[ES7 React/Redux/GraphQL/React-native Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) <br>
+•	[Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) <br>
+•	[Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) <br>
+•	[ESLint]( https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) <br>
+•	[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) <br>
+•	[VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons) <br>
+•	[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) <br>
+•	[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) <br>
+•	[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) <br>
+•	[HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets) <br>
+
+4. Must Knowns before learning React
+
+When creating web applications in React, you will be using a lot of JavaScript since it is obviously built in JavaScript! If you are not 100% familiar with JavaScript syntax yet, take a look at the following topics that you need to know before you learn React.
+
+### Data Types
+The first must know are the 6 primitive data types and 2 special data types. 
+
+```ruby
+// Data Types
+let name = "Dary" // string
+let age = 25 // Integer
+let price = 20.5 // Float
+let isSleeping = true // Boolean (true)
+let isAwake = false // Boolean (False)
+let cars = ['BMW', 'Mercedes', 'Audi']; // Array
+let city; // Undefined
+let country = null; // Null
+
+// Object
+let person = {
+  "name": "Code With Dary",
+  "course": "React!",
+  "channel": "Code With Dary"
+}
+
+// Function
+function createMessage() {
+  return 'This is a message';
+}
+
+// Call function outside of the function
+createMessage();
+```
+
+### Declaring variables
+
+#### const
+You can define variables in three different ways in JavaScript. The first method is by defining a constant. Keep in mind that you can only declare a constant once, because you cannot change the value after.
+
+```ruby
+const name = "Dary"
+
+name = "Michael" // This will throw an error
+
+console.log(name)
+```
+
+#### let
+The second method is to declare variables with the keyword let. Let allows you to declare variables that are limited to the scope of a block statement.
+
+The output of the following example will be 2 and 1, because the second ```console.log(x)``` is being called outside of the statement.
+```ruby
+function letExample() {
+    let x = 1;
+    {
+        let x = 2;
+        console.log(x)
+    }
+    console.log(x)
+}
+```
+
+#### var
+Var is actually the old way of declaring variables. With the keyword var, you will be defining a variable globally. The output in the following example will be 2 and 2, because the second let will overwrite the value of the first one.
+```ruby
+function varExample() {
+    var x = 1;
+    {
+        var x = 2;
+        console.log(x)
+    }
+    console.log(x)
+}
+```
+
+### ES6 Classes
+A class is a blueprint of template for an object. Within classes, you can define constructors, which is unique to a class. 
+```ruby
+class Classes {
+
+}
+```
+
+You can define a constructor by writing down the keyword constructor. Whatever happens inside the constructor, will be called whenever the class is being called.
+```ruby
+    constructor(num1, num2) {
+        this.num1 = num1
+        this.num2 = num2
+    }
+```
