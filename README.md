@@ -5,6 +5,7 @@
 | Ep. 1         | Introduction to React |
 | Ep. 2         | Setting up our environment & Creating our first App |
 | Ep. 3         | How to setup VS Code for React projects |
+| Ep. 3         | 6 Must Know JavaScript Topics before you learn React |
 
 ## 1. Introduction to React
 
