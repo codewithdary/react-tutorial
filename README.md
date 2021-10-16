@@ -1,4 +1,4 @@
-# Symfony Course
+# React Tutorial
 
 This repository is based on my [React Tutorial]() where I’ll be diving into learning React. Every video has its own repository where you will find the source code, and right here, you will find a summary of the desired chapter.
 
