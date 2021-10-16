@@ -1,3 +1,17 @@
+# Symfony Course
+
+This repository is based on my [React Tutorial]() where I’ll be diving into learning React. Every video has its own repository where you will find the source code, and right here, you will find a summary of the desired chapter.
+
+•	Author: [Code With Dary](https://github.com/codewithdary/) <br>
+•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
+•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+
+## Prerequisites
+•	HTML & CSS knowledge <br>
+•	JavaScript Fundamentals <br>
+•	Node + NPM <br>
+•	Redux <br>
+
 ## Course Overview
 
 | **Episode**   | **Subject** |
@@ -5,7 +19,7 @@
 | Ep. 1         | Introduction to React |
 | Ep. 2         | Setting up our environment & Creating our first App |
 | Ep. 3         | How to setup VS Code for React projects |
-| Ep. 3         | 6 Must Know JavaScript Topics before you learn React |
+| Ep. 4         | 6 Must Know JavaScript Topics before you learn React |
 
 ## 1. Introduction to React
 
