@@ -151,7 +151,7 @@ When working on React projects, I recommend installing the following extensions:
 •	[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) <br>
 •	[HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets) <br>
 
-4. Must Knowns before learning React
+## 4. Must Knowns before learning React
 
 When creating web applications in React, you will be using a lot of JavaScript since it is obviously built in JavaScript! If you are not 100% familiar with JavaScript syntax yet, take a look at the following topics that you need to know before you learn React.
 
