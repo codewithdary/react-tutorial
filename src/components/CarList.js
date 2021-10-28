@@ -1,14 +1,12 @@
 import React from 'react'
-
-let cars = ['Mercedes','BMW','Audi','Volve','Porsche'];
+import Car from './Car';
 
 class CarList extends React.Component {
     render() {
-        return <ul>
-            {cars.map((item,index)=>{
-                return <li key={index}>{item}</li>
-            })}
-        </ul>
+        return(
+            <Car />
+        );
+
     }
 }
 
