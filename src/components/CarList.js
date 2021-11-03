@@ -1,14 +1,16 @@
 import React from 'react'
+import Car from './Car';
+import cars from './Cars';
 
-let cars = ['Mercedes','BMW','Audi','Volve','Porsche'];
-
-class CarList extends React.Component {
-    render() {
-        return <ul>
-            {cars.map((item,index)=>{
-                return <li key={index}>{item}</li>
-            })}
-        </ul>
+class CarList extends React.Component {    
+    render() {           
+        return(
+            <div class="mx-auto w-4/5 grid sm:grid-cols-3 gap-6">
+                {cars.map(function(car) {
+                    return <Car {...car} />
+                })}            
+            </div>
+        );
     }
 }
 
