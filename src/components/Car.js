@@ -3,20 +3,28 @@ import React, { Component } from 'react'
 class Car extends React.Component {
     render() {
         return(
-            <div>
+            <div class="text-center mx-auto">
                 <div>
-                    <img src="https://cdn.pixabay.com/photo/2017/05/03/14/24/audi-2281218_960_720.jpg" width="300px"/>
+                    <img 
+                        src={this.props.imageUrl} 
+                        class="rounded-xl shadow-xl"
+                        alt="Audi"/>
                 </div>
 
                 <div>
                     <div>
-                        <h1>
-                            Audi
+                        <h1 class="text-4xl font-bold text-gray-700 pt-4">
+                            {this.props.name}
                         </h1>
 
-                        <p>
-                            Luxury vehicles
+                        <p class="text-xs font-thin uppercase text-gray-400 pt-4">
+                            {this.props.productType}
                         </p>
+
+                        <p class="text-s text-gray-800 pt-4">
+                            {this.props.description}
+                        </p>
+                        
                     </div>
                 </div>
             </div>
