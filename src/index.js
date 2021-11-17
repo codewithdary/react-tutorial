@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CarList from './components/CarList';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
+import App from './App'
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CarList />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

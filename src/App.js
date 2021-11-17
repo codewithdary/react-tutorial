@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import CarList from './components/CarList';
+import Header from './components/Header';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="mx-auto w-4/5">
+      <Header />
+
+      <CarList />
     </div>
   );
 }
 
 export default App;
+ 
